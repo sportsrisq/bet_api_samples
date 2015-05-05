@@ -1,6 +1,12 @@
+"""
+script requires you to add your Betfair cert file in the 'cert' directory, with the same name as your Betfair username (eg '/cert/sportsrisq.pem')
+also requires you to enter your app key below
+"""
+
 import datetime, httplib, json, os, yaml
 
-AppKey="5n7b42SxGE5Zj2aF"
+
+AppKey=None # ENTER YOUR APP KEY HERE
 
 AuthEndpoint="identitysso.betfair.com:443"
 
